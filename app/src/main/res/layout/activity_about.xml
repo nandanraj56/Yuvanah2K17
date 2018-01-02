@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/yuvanah" />
+    <ImageView
+        android:id="@+id/a2k17"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="20sp"
+        android:src="@drawable/a2k17"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:text="About"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a2k17"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="19dp"
+
+        android:text="This is the official app for Yuvanah 2k17."
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="App Developed By:-"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="10dp"
+        android:text="Nandan Raj"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/textView19"
+
+        android:layout_marginTop="13dp"
+        android:text="Shivam Raj"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Current Version:-"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="15dp"
+        android:text="Stable Version 1.1"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Version History:-"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_below="@+id/textView50"
+        android:layout_marginTop="12dp"
+        android:text="Stable v1.1 :App optimized"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_below="@+id/textView52"
+        android:layout_marginTop="12dp"
+        android:text="Stable v1.0 :Stable version released"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_below="@+id/textView51"
+        android:layout_marginTop="22dp"
+        android:text="Beta v0.3 :Gallery added"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView24"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignRight="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_below="@+id/textView24"
+        android:layout_marginTop="22dp"
+        android:text="Beta v0.2:Layout optimized"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView26"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignRight="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_below="@+id/textView26"
+        android:layout_marginTop="22dp"
+        android:text="Beta v0.1 :Main Activity optimized"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>
+    </ScrollView>

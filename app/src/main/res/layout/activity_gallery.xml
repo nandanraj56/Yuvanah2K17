@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:text="Yuvanah 2k15 Gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="@android:color/holo_orange_light"
+        android:gravity="center"
+
+
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="15sp"
+
+        android:id="@+id/adv_prog_header" />
+
+
+
+    <ImageView
+
+        android:id="@+id/gallery_imageview"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/app_name"
+        >
+    </ImageView>
+
+    <Gallery
+        android:id="@+id/gallery_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="25sp"
+        >
+    </Gallery>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/gallery_gallery"
+        android:layout_centerHorizontal="true"
+        android:text="Scroll and Select:-"
+        android:padding="5sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="8pt" />
+
+</RelativeLayout>

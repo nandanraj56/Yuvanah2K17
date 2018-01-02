@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="100dp"
+
+        android:layout_marginTop="50dp"
+        android:onClick="Chainb"
+        android:text="Chain Reaction" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="11dp"
+        android:onClick="Matkib"
+        android:text="Matki Fod/Ring Toss" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignRight="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="11dp"
+        android:onClick="Tugb"
+        android:text="Tug of War" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button8"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignRight="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_below="@+id/button8"
+        android:layout_marginTop="11dp"
+        android:onClick="Selfib"
+        android:text="Selfi -Groupfie Mania" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_below="@+id/button9"
+        android:layout_marginTop="11dp"
+        android:onClick="Paintb"
+        android:text="Paint Ball" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignRight="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_below="@+id/button10"
+        android:layout_marginTop="11dp"
+        android:onClick="Roadiesb"
+        android:text="Roadies" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignTop="@+id/button5"
+        android:layout_toEndOf="@+id/button6"
+        android:layout_toRightOf="@+id/button6"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button6"
+        android:layout_toRightOf="@+id/button6"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button8"
+        android:layout_toRightOf="@+id/button8"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button9"
+        android:layout_toRightOf="@+id/button9"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button10"
+        android:layout_toRightOf="@+id/button10"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button11"
+        android:layout_toRightOf="@+id/button11"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Events:"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:layout_below="@+id/button11"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@+id/textView10"
+        android:layout_toStartOf="@+id/textView10"
+        android:onClick="Sitoliab"
+        android:text="Sitoliya" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button21"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignRight="@+id/button21"
+        android:layout_alignStart="@+id/button21"
+        android:layout_below="@+id/button21"
+        android:layout_marginTop="16dp"
+        android:onClick="Haatb"
+        android:text="HAAT BAZAAR" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button22"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button21"
+        android:layout_toEndOf="@+id/button21"
+        android:layout_toRightOf="@+id/button21"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button22"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button22"
+        android:layout_toRightOf="@+id/button22"
+        android:padding="10sp"
+        android:text="11 AM TO 3 PM"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+</RelativeLayout>
+</ScrollView>

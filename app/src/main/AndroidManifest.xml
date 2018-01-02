@@ -4,18 +4,86 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+
+            android:label="@string/app_name">
         </activity>
-    </application>
 
+
+
+    <activity android:name=".Splash" android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".About"></activity>
+
+
+    <activity  android:label="Contact Us" android:name=".ContactUs" android:screenOrientation="portrait"></activity>
+    <activity  android:label="Coordinator" android:name=".Coordinator" android:screenOrientation="portrait"></activity>
+    <activity  android:label="About Yuvanah" android:name=".EventList" android:screenOrientation="portrait"></activity>
+    <activity  android:label="Gallery" android:name=".GalleryView" android:screenOrientation="portrait"></activity>
+    <activity android:label="About Yuvanah"  android:name=".Overview" android:screenOrientation="portrait"></activity>
+    <activity android:label="Schedule"  android:name=".Schedule" android:screenOrientation="portrait"></activity>
+        <activity  android:label="26-APRIL-2017" android:name=".Schedule26" android:screenOrientation="portrait"></activity>
+        <activity  android:label="27-APRIL-2017" android:name=".Schedule27" android:screenOrientation="portrait"></activity>
+        <activity  android:label="28-APRIL-2017"  android:name=".Schedule28"  android:screenOrientation="portrait"></activity>
+        <activity  android:label="29-APRIL-2017" android:name=".Schedule29"  android:screenOrientation="portrait"></activity>
+        <activity android:label="BADMINTON (BOYS AND GIRLS)" android:name=".Badminton" android:screenOrientation="portrait"></activity>
+        <activity android:label="CARROM (2 PLAYER PER TEAM)" android:name=".Carrom" android:screenOrientation="portrait"></activity>
+        <activity android:label="MINI FOOTBALL" android:name=".Mini_football" android:screenOrientation="portrait"></activity>
+        <activity android:label="VOLLEY BALL (BOYS AND GIRLS)s" android:name=".Volley_ball" android:screenOrientation="portrait"></activity>
+        <activity  android:label="GULLY CRICKET" android:name=".Gully_Cricket" android:screenOrientation="portrait"></activity>
+        <activity android:label="CHESS (BOYS AND GIRLS)" android:name=".Chess" android:screenOrientation="portrait"></activity>
+        <activity android:label="Rally with Nukkad Natak" android:name=".Walk27" android:screenOrientation="portrait"></activity>
+        <activity android:label="Youth Parliament" android:name=".Debate27" android:screenOrientation="portrait"></activity>
+        <activity android:label="KISHME KITNA HAI DUM" android:name=".Kishme27" android:screenOrientation="portrait"></activity>
+        <activity android:label=" Fashionista  ADA 2k17" android:name=".Enchanted27" android:screenOrientation="portrait"></activity>
+        <activity android:label="Fun and Food Zone" android:name=".Fun28" android:screenOrientation="portrait"></activity>
+        <activity android:label="KISHME KITNA HAI DUM" android:name=".Kishme28" android:screenOrientation="portrait"></activity>
+        <activity android:label="BAND Feat.wid DJ Chirag  " android:name=".Enchanted28" android:screenOrientation="portrait"></activity>
+        <activity android:label="Prize Distribution Ceremony" android:name=".Prize29" android:screenOrientation="portrait"></activity>
+        <activity android:label="COUNTER STRIKE" android:name=".Counter" android:screenOrientation="portrait"></activity>
+        <activity android:label="CODE MASTER" android:name=".Code" android:screenOrientation="portrait"></activity>
+        <activity android:label="BUSINESS PLAN" android:name=".Business" android:screenOrientation="portrait"></activity>
+        <activity android:label="FACE AND WALL PAINTING " android:name=".Face"></activity>
+        <activity android:label="SALAD DECORATION" android:name=".Salad" android:screenOrientation="portrait"></activity>
+        <activity android:label="REVERSE ENGG." android:name=".Reverse" android:screenOrientation="portrait"></activity>
+        <activity android:label="CULTURAL NIGHT" android:name=".Enchanted29" android:screenOrientation="portrait"></activity>
+
+        <activity android:label="Chain Reaction"  android:name=".Chain" android:screenOrientation="portrait"></activity>
+        <activity android:label="Matki Fod/Ring Toss"  android:name=".Matki" android:screenOrientation="portrait"></activity>
+        <activity android:label="Tug of War"  android:name=".Tug" android:screenOrientation="portrait"></activity>
+        <activity android:label="Selfi -Groupfie Mania"  android:name=".Selfi" android:screenOrientation="portrait"></activity>
+        <activity android:label="Paint Ball"  android:name=".Paint" android:screenOrientation="portrait"></activity>
+        <activity android:label="Roadies"  android:name=".Roadies" android:screenOrientation="portrait"></activity>
+        <activity android:label="Sitoliya"  android:name=".Sitoliya" android:screenOrientation="portrait"></activity>
+        <activity android:label="HAAT BAZAAR"  android:name=".Haat" android:screenOrientation="portrait"></activity>
+        <activity android:label="ROBO WAR,RACE AND SOCCER"  android:name=".Robo" android:screenOrientation="portrait"></activity>
+        <activity android:label="NFS / MINI NILITIA"  android:name=".Nfs" android:screenOrientation="portrait"></activity>
+        <activity android:label="GADGET GEEK"  android:name=".Gadget" android:screenOrientation="portrait"></activity>
+        <activity android:label="PHOTOGRAPHY /DOCUMENTRY"  android:name=".Photo" android:screenOrientation="portrait"></activity>
+        <activity android:label="AD MAD SHOW"  android:name=".Mad" android:screenOrientation="portrait"></activity>
+        <activity android:label="RANGOLI"  android:name=".Rangoli" android:screenOrientation="portrait"></activity>
+        <activity android:label="TATOO M., T-SHIRT DESIGNING"  android:name=".Tatoo" android:screenOrientation="portrait"></activity>
+        <activity android:label="NAIL ART AND MEHENDI"  android:name=".Nail" android:screenOrientation="portrait"></activity>
+        <activity android:label="COLLAGE MAKING"  android:name=".Collage" android:screenOrientation="portrait"></activity>
+        <activity android:label="JUNK-YARD"  android:name=".Junk" android:screenOrientation="portrait"></activity>
+        <activity android:label="TREASURE HUNT"  android:name=".Treasure" android:screenOrientation="portrait"></activity>
+
+
+
+
+
+
+    </application>
 </manifest>

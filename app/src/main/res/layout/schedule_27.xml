@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/twenty71">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="Walk27b"
+        android:text="Walk for Clean Indore   'IMC at its Best'   " />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button13"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignRight="@+id/button13"
+        android:layout_alignStart="@+id/button13"
+        android:layout_below="@+id/button13"
+        android:layout_marginTop="15dp"
+        android:onClick="Debate27b"
+        android:text="Debate" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button14"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignRight="@+id/button14"
+        android:layout_alignStart="@+id/button14"
+        android:layout_below="@+id/button14"
+        android:layout_marginTop="15dp"
+        android:onClick="Kishme27b"
+        android:text="KISME KITNA HAI DUM " />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button15"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignRight="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:layout_below="@+id/button15"
+        android:layout_marginTop="15dp"
+        android:onClick="Enchanted27b"
+        android:text="Enchanted Blossoming Nights" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Events Category:"
+        android:layout_marginTop="8sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
